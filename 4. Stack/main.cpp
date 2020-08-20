@@ -68,6 +68,7 @@ int main()
         case 1:
             cout << "Enter value to be pushed: " << endl;
             cin >> val;
+            push(val);
             break;
         case 2:
             pop();
